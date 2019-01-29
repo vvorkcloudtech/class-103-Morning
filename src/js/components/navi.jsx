@@ -5,7 +5,7 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-          M Zohaib Iqbal
+          M Zohaib Iqbal:
       </div>
       
     );

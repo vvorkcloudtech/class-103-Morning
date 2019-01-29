@@ -1,5 +1,6 @@
 import React from "react";
  
+import Samavia from "./Samavia";
 import Nav from './Nav';
 
 import Abdullah from 'Abdullah';
@@ -16,6 +17,10 @@ class App extends React.Component {
 
           <Shujja />
         
+          <Samavia />
+       
+        
+       
 
       </div>
                     

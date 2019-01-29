@@ -1,0 +1,51 @@
+.nav{
+    padding: 20px 0 0 0;
+    width: 100%;
+    background: $bg1;
+    img{
+        height: 35px;
+        margin-left: 20px;
+    }
+    ul.list{
+        margin-left: 300px;
+        margin-top: -60px;
+        display: flex;
+        flex-direction: row;
+        // text-align: center;
+        // align-items: center;
+        li{
+            color: $color;
+            padding:30px 20px;
+            list-style: none;
+            float: left;
+            cursor: pointer;
+            &:hover{
+                color: $color1;
+                background: $bg2;
+            }
+        }
+    }
+}
+.part-nav{
+    padding: 2px 0;
+    height: 24px;
+    width: 100%;
+background: $color;
+ol{
+    li{
+        float: left;
+        padding:2px 18px;
+        list-style: none;
+        cursor: pointer;
+           span{
+            color: $color1;
+           }
+        &:hover{
+            color: white;
+            background: $color1;
+            border-radius: 20px;
+        }
+     
+} 
+}
+}

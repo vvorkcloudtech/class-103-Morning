@@ -1,7 +1,7 @@
 import React from "react";
+import Navbar from "./Navbar";
 
-
-class App extends React.Component {
+class Navbar extends React.Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ class App extends React.Component {
     );
   }
 }
-export default App;
+export default Navbar;

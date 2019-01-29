@@ -1,5 +1,5 @@
 import React from "react";
-
+import Maryam from './maryam'
 
 class App extends React.Component {
   render() {
@@ -8,6 +8,7 @@ class App extends React.Component {
         <h1>
           Heading One Team Work 
           </h1>
+          <Maryam />
       </div>
       
     );

@@ -8,6 +8,8 @@ class App extends React.Component {
         <h1>
           Heading One Team Work 
           </h1>
+
+          <shujja />
       </div>
     );
   }

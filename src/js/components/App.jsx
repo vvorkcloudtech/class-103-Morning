@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./nav"; 
 
 
 class App extends React.Component {
@@ -8,6 +9,7 @@ class App extends React.Component {
         <h1>
           Heading One Team Work 
           </h1>
+          <Nav />
       </div>
       
     );

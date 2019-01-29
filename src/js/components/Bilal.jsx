@@ -1,14 +1,13 @@
 import React from "react";
 
-
-class Nav extends React.Component {
+class Bilal extends React.Component {
   render() {
     return (
       <div>
-          M Zohaib Iqbal:
+        this is me!!
       </div>
       
     );
   }
 }
-export default Nav;
+export default Bilal;

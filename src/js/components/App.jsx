@@ -8,18 +8,11 @@ class App extends React.Component {
     return (
       <div>
         
-        <Nav />
-
-        <h1>
-          Heading One Team Work
-          </h1>
        
-          
-
-
-        <shujja />
-
+        some files
       </div>
+
+         
     );
   }
 }

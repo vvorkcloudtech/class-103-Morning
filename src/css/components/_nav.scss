@@ -15,10 +15,11 @@
         // align-items: center;
         li{
             color: $color;
-            padding:30px 20px;
+            padding:28px 20px;
             list-style: none;
             float: left;
             cursor: pointer;
+            font-size: 19px;
             &:hover{
                 color: $color1;
                 background: $bg2;
@@ -39,12 +40,16 @@ ol{
         cursor: pointer;
            span{
             color: $color1;
+            &:hover{
+                color: white;
+            }    
            }
         &:hover{
             color: white;
             background: $color1;
             border-radius: 20px;
         }
+        
      
 } 
 }

@@ -13,7 +13,7 @@ class App extends React.Component {
       <div>
         <Nav/>
         <h1>
-          Heading One Team Work 
+          Heading One Team hgWork 
           </h1>
           <Shahzaib/>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Abdullah from 'Abdullah';
+import Abdullah from './Abdullah';
 
 class App extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
           Heading One Team Work 
           </h1>
 
-          <shujja />
+          <Abdullah />
       </div>
     );
   }

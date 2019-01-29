@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>
-          Heading One Team Work 
+          Shahzaib
           </h1>
       </div>
       

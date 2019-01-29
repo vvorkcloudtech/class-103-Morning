@@ -1,17 +1,16 @@
 import React from "react";
 
-class App extends React.Component {
+class form_post extends React.Component {
   render() {
     return (
       <div>
           
         <h1>
-          Heading One Team Work 
-        </h1>
-
+          This is a form page 
+          </h1>
       </div>
       
     );
   }
 }
-export default App;
+export default form_post;

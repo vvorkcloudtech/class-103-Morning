@@ -1,13 +1,12 @@
 import React from "react";
 
-class Bilal extends React.Component {
+class G5 extends React.Component {
   render() {
     return (
       <div>
-        this is me!!
+     <h1>this is a 5G component</h1>
       </div>
-      
     );
   }
 }
-export default Bilal;
+export default G5;

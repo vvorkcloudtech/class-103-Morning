@@ -1,4 +1,8 @@
 import React from "react";
+import Abdullah from './Abdullah';
+// import Nav from './Nav';
+import Abdullah from 'Abdullah';
+
 import Nav from "./Nav";
 import { Route } from "react-router-dom";
 import HonorHub from "./HonorHub";
@@ -9,6 +13,7 @@ import G5 from "./5G";
 import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
+import PostCategory from "./PostCategory";
 import Mata20Pro from "./Mate20Pro";
 import Footer from './Footer';
 import Tags from './tags';
@@ -17,6 +22,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1>
+          Heading One Team Work 
+          </h1>
+          <PostCategory/>
+          <Abdullah />
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>

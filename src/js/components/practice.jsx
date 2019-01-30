@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 class Practice extends React.Component{
@@ -44,3 +45,28 @@ submitHandler=(e)=>{
 }
 
 export default Practice;
+=======
+// import React, { Component } from 'react'
+
+// export default class Practice extends Component {
+//     state = {
+//         Discussion: '',
+//         classTag: '',
+//         post: '',
+//     }
+//     render() {
+//         return (
+//             <div >
+//                 <br />
+//                 Discussion:<input onChange={} type="text" />
+//                 class tag:<input  type="text" />
+//                 post:<input  type="text" />
+//                 <button>SUBMIT</button>
+//                 <br />
+//                 <br />
+//             </div>
+//         )
+//     }
+// }
+
+>>>>>>> abb11e5e9b93a16423af3045f1d8f07e46a16a4f

@@ -10,8 +10,11 @@ import G5 from "./5G";
 import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
+import PostCategory from "./PostCategory";
 import Mata20Pro from "./Mate20Pro";
 import Footer from './Footer';
+import Tags from './tags';
+import Practice from './practice';
 class App extends React.Component {
   render() {
     return (
@@ -19,7 +22,8 @@ class App extends React.Component {
         <h1>
           Heading One Team Work 
           </h1>
-
+          <PostCategory/>
+          <Forum />
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>
@@ -30,7 +34,8 @@ class App extends React.Component {
         <Route path="/Samsung" component={Samsung}/>
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
-        <Forum />
+        <Route path="/tags" component={Tags}/>
+        <Route path="/practice" component={Practice}/>
 
         <Footer/>
       </div>

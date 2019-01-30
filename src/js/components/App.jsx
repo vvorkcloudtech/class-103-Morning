@@ -13,6 +13,7 @@ import G5 from "./5G";
 import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
+import PostCategory from "./PostCategory";
 import Mata20Pro from "./Mate20Pro";
 import Footer from './Footer';
 class App extends React.Component {
@@ -22,7 +23,7 @@ class App extends React.Component {
         <h1>
           Heading One Team Work 
           </h1>
-
+          <PostCategory/>
           <Abdullah />
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 

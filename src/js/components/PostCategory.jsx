@@ -9,4 +9,4 @@ class HonorHub extends React.Component {
     );
   }
 }
-export default Post-Category;
+export default PostCategory;

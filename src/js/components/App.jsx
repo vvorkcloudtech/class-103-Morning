@@ -1,9 +1,6 @@
 import React from "react";
-import Abdullah from './Abdullah';
-// import Nav from './Nav';
-import Abdullah from 'Abdullah';
-
-import Nav from "./Nav";
+import Nav from './Nav';
+import Forum from './Forums';
 import { Route } from "react-router-dom";
 import HonorHub from "./HonorHub";
 import AndroidPie from "./AndroidPie";
@@ -23,7 +20,6 @@ class App extends React.Component {
           Heading One Team Work 
           </h1>
 
-          <Abdullah />
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>
@@ -34,6 +30,7 @@ class App extends React.Component {
         <Route path="/Samsung" component={Samsung}/>
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
+        <Forum />
 
         <Footer/>
       </div>

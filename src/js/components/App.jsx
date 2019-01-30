@@ -1,5 +1,7 @@
 import React from "react";
 import Abdullah from './Abdullah';
+// import Nav from './Nav';
+import Abdullah from 'Abdullah';
 
 class App extends React.Component {
   render() {
@@ -10,7 +12,10 @@ class App extends React.Component {
           </h1>
 
           <Abdullah />
+
       </div>
+
+         
     );
   }
 }

@@ -19,6 +19,14 @@ export let Data = [
                 li9:"Mate 20 Pro"
 
             }
-        }
+        },
+
+        footer:
+            {
+                data1:{icon:"twitter",
+            h1:"Xdadeveloper"}
+            }
+        
     }
+
 ]

@@ -10,6 +10,7 @@ import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
 import Mata20Pro from "./Mate20Pro";
+import Footer from './Footer';
 class App extends React.Component {
   render() {
     return (
@@ -24,6 +25,8 @@ class App extends React.Component {
         <Route path="/Samsung" component={Samsung}/>
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
+
+        <Footer/>
       </div>
     );
   }

@@ -66,7 +66,7 @@
 .nav-list1{
     position: absolute;
     background: $bg2;
-    width: 600px;
+    width: 580px;
     left:0px;
     height: 440px;
     top:70px;
@@ -102,10 +102,11 @@
                 }
             
         }
-        h2{
+        h4{
             position: absolute;
-            top:380px;
-            left: 20px;
+            top:360px;
+            left: 30px;
+            font-size: 22px;
         }
 }
 
@@ -115,7 +116,7 @@
     background: $bg2;
     width: 500px;
     left:0px;
-    height: 400px;
+    height: 330px;
     top:70px;
     z-index: 999;
     ul.devices-list{
@@ -149,6 +150,16 @@
                 }
             
         }
+        .hr{
+            position: absolute;
+            top:270px;
+            width: 100%;
+        }
+        h4{
+            position: absolute;
+            top:290px;
+            left:20px;
+        }
         
 }
 
@@ -156,9 +167,9 @@
 .nav-list3{
     position: absolute;
     background: $bg2;
-    width: 400px;
+    width: 480px;
     left:0px;
-    height: 400px;
+    height: 600px;
     top:70px;
     z-index: 999;
     ul.topic-list{
@@ -175,7 +186,7 @@
             position: absolute;
             display: flex;
             flex-direction: column;
-            left:180px;
+            left:250px;
             li{
                 padding: 10px;
                 color: white;
@@ -187,7 +198,7 @@
 .nav-list4{
     position: absolute;
     background: $bg2;
-    width: 200px;
+    width: 250px;
     left:0px;
     height: 400px;
     top:70px;

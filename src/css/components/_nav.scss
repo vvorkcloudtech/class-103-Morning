@@ -36,6 +36,7 @@
     height: 500px;
     top:70px;
     overflow-y: scroll;
+    z-index: 999;
     ul.news-list{
         position: absolute;
         display: flex;
@@ -69,6 +70,7 @@
     left:0px;
     height: 440px;
     top:70px;
+    z-index: 999;
     ul.forums-list{
         position: absolute;
         display: flex;
@@ -115,6 +117,7 @@
     left:0px;
     height: 400px;
     top:70px;
+    z-index: 999;
     ul.devices-list{
         position: absolute;
         display: flex;
@@ -157,6 +160,7 @@
     left:0px;
     height: 400px;
     top:70px;
+    z-index: 999;
     ul.topic-list{
         position: absolute;
         display: flex;
@@ -187,6 +191,7 @@
     left:0px;
     height: 400px;
     top:70px;
+    z-index: 999;
     ul.post-list{
         position: absolute;
         display: flex;

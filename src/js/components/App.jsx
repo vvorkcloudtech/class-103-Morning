@@ -1,11 +1,8 @@
 import React from "react";
-
-// import Nav from './Nav';
-
-import Nav from "./Nav";
-import Nav from './Nav';
-//import Forum from './Forums';
 import { Route } from "react-router-dom";
+//Nav import start
+import Nav from "./Nav";
+import Forum from './Forums';
 import HonorHub from "./HonorHub";
 import AndroidPie from "./AndroidPie";
 import OnePlus6T from "./OnePlus6T";
@@ -33,11 +30,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>
+        {/* <h1>
           Heading One Team Work 
           </h1>
           <PostCategory/>
-          <Forum />
+          <Forum /> */}
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>

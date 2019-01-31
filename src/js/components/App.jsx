@@ -37,11 +37,7 @@ class App extends React.Component {
           Heading One Team Work 
           </h1>
           <PostCategory/>
-<<<<<<< HEAD
-         
-=======
           <Forum />
->>>>>>> 2b8ab0fb72102aa3992ccf4e825fddc7dd47726a
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>

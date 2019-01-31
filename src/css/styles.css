@@ -1,0 +1,119 @@
+@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
+
+Link {
+  color: black;
+}
+
+.nav {
+  position: relative;
+  padding: 20px 0 0 0;
+  width: 100%;
+  background: #2E2E2E;
+  height: 50px;
+}
+
+.nav img {
+  height: 35px;
+  margin-left: 20px;
+}
+
+.nav ul.list {
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.nav ul.list li {
+  position: relative;
+  color: #DDDDDD;
+  padding: 26px 20px;
+  list-style: none;
+  float: left;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.nav ul.list li:hover {
+  color: #EE9413;
+  background: #4D4D4D;
+}
+
+.nav-list {
+  position: absolute;
+  background: #4D4D4D;
+  width: 500px;
+  left: 0px;
+  height: 500px;
+  top: 70px;
+  overflow-y: scroll;
+}
+
+.nav-list ul.news-list {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 20px;
+}
+
+.nav-list ul.news-list li {
+  padding: 10px;
+  color: white;
+}
+
+.nav-list ul.news-list li span {
+  height: 70px;
+  width: 100%;
+}
+
+.nav-list ul.news-list li span img {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-list ul.news-list li span p {
+  position: relative;
+  top: -30px;
+  left: 100px;
+  width: 330px;
+  margin-top: -30px;
+}
+
+.part-nav {
+  padding: 2px 0;
+  height: 24px;
+  width: 100%;
+  background: #DDDDDD;
+}
+
+.part-nav ol li {
+  float: left;
+  padding: 2px 18px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.part-nav ol li span {
+  color: #EE9413;
+}
+
+.part-nav ol li span:hover {
+  color: white;
+}
+
+.part-nav ol li:hover {
+  color: white;
+  background: #EE9413;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

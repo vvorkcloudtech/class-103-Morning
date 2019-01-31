@@ -1,32 +1,207 @@
 .nav{
+    position: relative;
     padding: 20px 0 0 0;
     width: 100%;
     background: $bg1;
+    height: 50px;
     img{
         height: 35px;
         margin-left: 20px;
     }
     ul.list{
-        margin-left: 300px;
-        margin-top: -60px;
-        display: flex;
-        flex-direction: row;
-        // text-align: center;
-        // align-items: center;
+        position: absolute;
+        top:0;
+        left: 300px;
         li{
+            position: relative;
             color: $color;
-            padding:28px 20px;
+            padding:26px 20px;
             list-style: none;
             float: left;
             cursor: pointer;
             font-size: 19px;
+            // width: 100px;
             &:hover{
                 color: $color1;
                 background: $bg2;
             }
-        }
+            }
     }
 }
+.nav-list{
+    position: absolute;
+    background: $bg2;
+    width: 500px;
+    left:0px;
+    height: 500px;
+    top:70px;
+    overflow-y: scroll;
+    ul.news-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left:20px;
+        li{
+            padding: 10px;
+            color: white;
+            span{
+                height: 70px;
+                width: 100%;
+                img{
+                    height: 60px;
+                    width: 60px;
+                }
+                p{
+                position: relative;
+                top:-30px;
+                left:100px;
+                width: 330px;
+                margin-top: -30px;
+                }
+            }
+        }
+        }
+}
+.nav-list1{
+    position: absolute;
+    background: $bg2;
+    width: 600px;
+    left:0px;
+    height: 440px;
+    top:70px;
+    ul.forums-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left:20px;
+        li{
+            padding: 10px;
+            color: white;
+        }
+    }
+        ul.forums-list2{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left:210px;
+            li{
+                padding: 10px;
+                color: white;
+            }
+        }
+            ul.forums-list3{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                left:390px;
+                li{
+                    padding: 10px;
+                    color: white;
+                }
+            
+        }
+        h2{
+            position: absolute;
+            top:380px;
+            left: 20px;
+        }
+}
+
+
+.nav-list2{
+    position: absolute;
+    background: $bg2;
+    width: 500px;
+    left:0px;
+    height: 400px;
+    top:70px;
+    ul.devices-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left:20px;
+        li{
+            padding: 10px;
+            color: white;
+        }
+    }
+        ul.devices-list2{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left:180px;
+            li{
+                padding: 10px;
+                color: white;
+            }
+        }
+            ul.devices-list3{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                left:320px;
+                li{
+                    padding: 10px;
+                    color: white;
+                }
+            
+        }
+        
+}
+
+
+.nav-list3{
+    position: absolute;
+    background: $bg2;
+    width: 400px;
+    left:0px;
+    height: 400px;
+    top:70px;
+    ul.topic-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left:20px;
+        li{
+            padding: 10px;
+            color: white;
+        }
+    }
+        ul.topic-list2{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left:180px;
+            li{
+                padding: 10px;
+                color: white;
+            }
+        }
+         
+}
+
+.nav-list4{
+    position: absolute;
+    background: $bg2;
+    width: 200px;
+    left:0px;
+    height: 400px;
+    top:70px;
+    ul.post-list{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left:20px;
+        li{
+            padding: 10px;
+            color: white;
+        }
+    }
+         
+}
+
+
+
 .part-nav{
     padding: 2px 0;
     height: 24px;

@@ -1,6 +1,6 @@
 import React from "react";
 
-class HonorHub extends React.Component {
+class PostCategory extends React.Component {
   render() {
     return (
       <div>

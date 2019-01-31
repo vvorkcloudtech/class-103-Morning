@@ -3,6 +3,9 @@ import { Route } from "react-router-dom";
 //Nav import start
 import Nav from "./Nav";
 import Forum from './Forums';
+import fire from '../../config/Fire';
+import Login from './Login';
+import Home from './Home';
 import HonorHub from "./HonorHub";
 import AndroidPie from "./AndroidPie";
 import OnePlus6T from "./OnePlus6T";
@@ -27,7 +30,31 @@ import Tags from './tags';
 import Practice from './practice';
 
 class App extends React.Component {
+constructor(props){
+  super(props);
+  this.state = ({
+    user:{},
+  });
+  this.authListener = this.authListener.bind(this);
+}
+componentDidMount() {
+  this.authListener();
+}
+
+authListener() {
+  fire.auth().onAuthStateChanged((user) => {
+    console.log(user);
+    if (user) {
+      this.setState({ user });
+      localStorage.setItem('user', user.uid);
+    } else {
+      this.setState({ user: null });
+      localStorage.removeItem('user');
+    }
+  });
+}
   render() {
+
     return (
       <div>
         {/* <h1>
@@ -50,6 +77,8 @@ class App extends React.Component {
 
         <Route path="/tags" component={Tags}/>
         <Route path="/practice" component={Practice}/>
+        {this.state.user ? (<Home/>) : (<Login/>)}
+
 {/* Footer starts here */}
         <Footer/>
         <Route path="/rules" component={Rules}/>

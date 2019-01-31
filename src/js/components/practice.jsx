@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from "react";
 
 // class Practice extends React.Component{
@@ -27,6 +28,9 @@
 
 //     render(
 
+=======
+// import React, { Component } from 'react'
+>>>>>>> a8470a3907a1c493264d847a09881ad8d36bb262
 
 //     ){
 //         console.log(this.state)
@@ -43,6 +47,7 @@
 //     }
 // }
 
+<<<<<<< HEAD
 // export default Practice;
 // // import React, { Component } from 'react'
 
@@ -67,3 +72,5 @@
 // //     }
 // // }
 
+=======
+>>>>>>> a8470a3907a1c493264d847a09881ad8d36bb262

@@ -206,6 +206,53 @@
 }
 
 
+.tip{width: 0px; 
+    height: 0px; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid $bg1;  
+    margin-top: -25px;
+            
+}
+.devices-list-start{
+    position: absolute;
+    background: $bg1;
+    width: 450px;
+    left:0px;
+    height: 500px;
+    top:70px;
+    z-index: 999;
+    // border: 1px solid $color;
+    border-radius: 10px;
+    ul.deviceslist{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top:20px;
+        li{
+            padding: 10px;
+            color: white;
+            &:hover{
+                background: $bg1;
+            }
+            span{
+                height: 70px;
+                width: 100%;
+                img{
+                    height: 60px;
+                    width: 60px;
+                }
+                p{
+                position: relative;
+                top:-30px;
+                left:100px;
+                width: 330px;
+                margin-top: -30px;
+                }
+            }
+        }
+        }
+}
 
 .part-nav{
     padding: 2px 0;

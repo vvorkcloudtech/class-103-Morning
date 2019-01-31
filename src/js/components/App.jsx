@@ -1,6 +1,9 @@
 import React from "react";
 import Nav from './Nav';
 import Forum from './Forums';
+import fire from '../../config/Fire';
+import Login from './Login';
+import Home from './Home';
 import { Route } from "react-router-dom";
 import HonorHub from "./HonorHub";
 import AndroidPie from "./AndroidPie";
@@ -14,16 +17,39 @@ import PostCategory from "./PostCategory";
 import Mata20Pro from "./Mate20Pro";
 import Footer from './Footer';
 import Tags from './tags';
-import Practice from './practice';
+// import Practice from './practice';
+
 class App extends React.Component {
+constructor(props){
+  super(props);
+  this.state = ({
+    user:{},
+  });
+  this.authListener = this.authListener.bind(this);
+}
+componentDidMount() {
+  this.authListener();
+}
+
+authListener() {
+  fire.auth().onAuthStateChanged((user) => {
+    console.log(user);
+    if (user) {
+      this.setState({ user });
+      localStorage.setItem('user', user.uid);
+    } else {
+      this.setState({ user: null });
+      localStorage.removeItem('user');
+    }
+  });
+}
   render() {
+
     return (
       <div>
         <h1>
           Heading One Team Work 
           </h1>
-          <PostCategory/>
-          <Forum />
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>
@@ -35,7 +61,8 @@ class App extends React.Component {
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
         <Route path="/tags" component={Tags}/>
-        <Route path="/practice" component={Practice}/>
+        {/* <Route path="/practice" component={Practice}/> */}
+        {this.state.user ? (<Home/>) : (<Login/>)}
 
         <Footer/>
       </div>

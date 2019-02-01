@@ -1,7 +1,7 @@
 import React from "react";
-import Abdullah from './Abdullah';
+
 // import Nav from './Nav';
-import Abdullah from 'Abdullah';
+
 
 import Nav from "./Nav";
 import { Route } from "react-router-dom";
@@ -24,7 +24,7 @@ class App extends React.Component {
           Heading One Team Work 
           </h1>
           <PostCategory/>
-          <Abdullah />
+         
      <Nav />
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>

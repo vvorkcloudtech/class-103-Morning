@@ -26,7 +26,6 @@ class App extends React.Component {
         <Route path="/Samsung" component={Samsung}/>
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
-        <Route path="/practice" component={Practice}/>
 
       </div>
     );

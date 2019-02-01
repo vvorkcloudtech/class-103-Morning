@@ -27,13 +27,190 @@
             }
             }
     }
+    
+.icon{
+    position: absolute;
+    padding:4px 10px;
+    // border: 2px solid white;
+    width: 200px;
+    top: 10px;
+    right: 0;
+    i{
+        font-size: 40px;
+        color: $light-clr;
+        margin:0 13px;
+    }
+}
+.search{
+    position: relative;
+    width: 470px;
+    background: $black-clr;
+    height: 100vh;
+    position: absolute;
+    top:-10px;
+    right: 0;
+    h1{
+        color: $light-clr;
+        position: absolute;
+        right: 20px;
+        top:20px;
+        cursor: pointer;
+    }
+    input{
+        position: absolute;
+        top:80px;
+        left: 20px;
+        padding: 15px;
+        width: 390px;
+    }
+    h3{
+        position: absolute;
+        top:145px;
+        color: $light-clr;
+        left: 20px;
+        letter-spacing: 1px;
+    }
+    ul{
+        position: absolute;
+        left: 20px;
+        top:180px;
+        width: 400px;
+        li{
+            list-style: none;
+            padding: 10px;
+            background: $bg2;
+            margin: 10px;
+            float: left;
+            color: $light-clr
+        }
+    }
+}
+
+.search1{
+    position: relative;
+    width: 470px;
+    background: $black-clr;
+    height: 100vh;
+    position: absolute;
+    top:-10px;
+    right: 0;
+    h1{
+        color: $light-clr;
+        position: absolute;
+        right: 20px;
+        top:20px;
+        cursor: pointer;
+    }
+    input{
+        position: absolute;
+        padding: 15px;
+        width: 390px;
+    }
+    .user{
+        top:80px;
+        left: 20px;
+    }
+    .pass{
+        top:145px;
+        left: 20px;
+    }
+    h4{
+        position: absolute;
+        top:215px;
+        color: $light-clr;
+        left: 50px;
+        letter-spacing: 1px;
+        input{
+            position: absolute;
+            top: 5px;
+            left: -29px;
+            height: 15px;
+            width: 15px;
+        }
+    }
+    .h4{
+        color: $light-brown;
+        left: 300px;
+    }
+    button{
+        background: $light-brown;
+        outline: none;
+        border: none;
+        padding: 15px 180px;
+        border-radius: 30px;
+        position: absolute;
+        top:270px;
+        left: 26px;
+        color: $light-clr;
+        font-size: 22px;
+    }
+    .h5{
+        @extend h4;
+        top:350px;
+        left: 116px;
+        color:$light-brown; 
+    }
+}
+}
+
+
+.search2{
+    position: relative;
+    width: 470px;
+    background: $black-clr;
+    height: 100vh;
+    position: absolute;
+    top:-10px;
+    right: 0;
+    h1{
+        color: $light-clr;
+        position: absolute;
+        right: 20px;
+        top:20px;
+        cursor: pointer;
+    }
+    ul{
+        position: absolute;
+        top:28px;
+        width: 100%;
+        color: $light-clr;
+        li{
+            list-style: none;
+           margin: 10px 25px;
+           font-size: 19px;
+           color: $color;
+           p{
+               font-size: 16px;
+               color: $color;
+               
+           }
+           .fas,.fab{ 
+            font-size: 28px;
+           }
+           h3{  
+            margin: 2px;
+           .fas,.fab{
+            margin:10px 5px;
+            font-size: 28px;
+            background: $bg2;
+            padding: 10px;
+        }
+        .fa-facebook-f{
+            padding: 10px 20px;
+        }
+           }
+           .p{
+        margin: 3px 30px;       
+        }
+        }
+    }
 }
 .nav-list{
     position: absolute;
     background: $bg2;
     width: 500px;
     left:0px;
-    height: 500px;
+    height: 590px;
     top:70px;
     overflow-y: scroll;
     z-index: 999;
@@ -42,6 +219,7 @@
         display: flex;
         flex-direction: column;
         left:20px;
+        top:30px;
         li{
             padding: 10px;
             color: white;
@@ -68,7 +246,7 @@
     background: $bg2;
     width: 580px;
     left:0px;
-    height: 440px;
+    height: 480px;
     top:70px;
     z-index: 999;
     ul.forums-list{
@@ -76,6 +254,7 @@
         display: flex;
         flex-direction: column;
         left:20px;
+        top:30px;
         li{
             padding: 10px;
             color: white;
@@ -86,6 +265,7 @@
             display: flex;
             flex-direction: column;
             left:210px;
+            top:30px;
             li{
                 padding: 10px;
                 color: white;
@@ -96,6 +276,7 @@
                 display: flex;
                 flex-direction: column;
                 left:390px;
+                top:30px;
                 li{
                     padding: 10px;
                     color: white;
@@ -104,7 +285,7 @@
         }
         h4{
             position: absolute;
-            top:360px;
+            top:390px;
             left: 30px;
             font-size: 22px;
         }
@@ -116,7 +297,7 @@
     background: $bg2;
     width: 500px;
     left:0px;
-    height: 330px;
+    height: 360px;
     top:70px;
     z-index: 999;
     ul.devices-list{
@@ -124,6 +305,7 @@
         display: flex;
         flex-direction: column;
         left:20px;
+        top:30px;
         li{
             padding: 10px;
             color: white;
@@ -134,6 +316,7 @@
             display: flex;
             flex-direction: column;
             left:180px;
+            top:30px;
             li{
                 padding: 10px;
                 color: white;
@@ -144,6 +327,7 @@
                 display: flex;
                 flex-direction: column;
                 left:320px;
+                top:30px;
                 li{
                     padding: 10px;
                     color: white;
@@ -152,12 +336,12 @@
         }
         .hr{
             position: absolute;
-            top:270px;
+            top:300px;
             width: 100%;
         }
         h4{
             position: absolute;
-            top:290px;
+            top:320px;
             left:20px;
         }
         
@@ -169,7 +353,7 @@
     background: $bg2;
     width: 480px;
     left:0px;
-    height: 600px;
+    height: 620px;
     top:70px;
     z-index: 999;
     ul.topic-list{
@@ -177,6 +361,7 @@
         display: flex;
         flex-direction: column;
         left:20px;
+        top:30px;
         li{
             padding: 10px;
             color: white;
@@ -187,6 +372,7 @@
             display: flex;
             flex-direction: column;
             left:250px;
+            top:30px;
             li{
                 padding: 10px;
                 color: white;
@@ -200,7 +386,7 @@
     background: $bg2;
     width: 250px;
     left:0px;
-    height: 400px;
+    height: 440px;
     top:70px;
     z-index: 999;
     ul.post-list{
@@ -208,6 +394,7 @@
         display: flex;
         flex-direction: column;
         left:20px;
+        top:30px;
         li{
             padding: 10px;
             color: white;

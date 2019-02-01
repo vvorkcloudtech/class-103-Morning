@@ -660,4 +660,5 @@
     img:"https://www.xda-developers.com/files/2019/01/LG-V40-ThinQ-284x170_c.png",
     title:'LG V40 ThinQ with 6.4″ QHD+ OLED display and five cameras launched in Pakistan for 49,990',
     description:'The LG V40 ThinQ was launched in Q4 2018, bringing the display notch to LG’s V-series. But that was not everything that the LG V40 ThinQ had going for itself...',
-},
+}
+ ]

@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "firebase": "^5.8.1",
     "react-router-dom": "^4.3.1"
   }
 }

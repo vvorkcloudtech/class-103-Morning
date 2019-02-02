@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding:0;
+}
+.main{
+    height:6000px;
+    width:70%;
+    border:2px solid;
+
+    .fixed{
+        
+        width:60px;
+        
+        z-index: 999;
+        position: fixed;
+        top:140px;
+        text-align: center;
+   }
+.img{
+    margin:40px auto;
+    height:400px;
+    width:900px;
+
+    border:2px solid;
+    background: url(../img/Installer_Icon.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+i{
+    display: block;
+    font-size:30px;
+    padding:10px;
+    position: relative;
+    top:50px;cursor: pointer;
+    background-color:rgb(0, 146, 204);
+    color:white;
+transition: ease-in-out;
+    &:hover{
+width:50px;
+    }}
+
+    .commints{
+        height:50px;
+        width: 900px;
+        background:rgb(68, 68, 68);
+        position: relative;
+        left:75px;
+     ul{
+            list-style: none;
+            position: absolute;
+            left:150px;
+            li {
+                float: left;
+                cursor: pointer;
+                padding:5px 20px;
+                i{
+                    display:inline;
+                font-size:15px;
+                position: relative;
+                top:10px;
+                border-left:2px solid white;
+                background: transparent;
+            }
+            p{display: inline;
+            top:10px;position: relative;
+        color:white;}
+        }
+        }
+        
+   }.heading{
+       height:740px;
+       width:920px;
+       position: relative;
+       background: white;
+       z-index: 999;
+       top:20px;
+       left:70px;
+   }h1{
+       position: absolute;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       left:50px;
+       font-size:40px;
+   }
+ul{
+    position: absolute;
+    list-style: none;
+    top:10px;
+}
+li{
+    margin:20px;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+}
+span{
+    cursor: pointer;
+}
+.btn{
+    background:yellow;
+    position: absolute;
+    top:1020px;
+    padding:10px;
+    left:350px;;
+    transition:3s;
+    cursor: pointer;
+    
+&:hover{
+    color:white;
+    background: black;
+}}.phone{
+    height:700px;
+    width:920px;
+    background: red;
+    background: url(../img/phn.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top:550px;
+    left:70px;
+}.apple-phn{
+    height:830px;
+    width:895px;
+    position: relative;
+    z-index: 999;
+    top:580px;
+    left:80px;
+}.samsung{
+    height:300px;
+    width:430px;
+    background: url(../img/apple.png);
+    position: absolute;
+    top:20px;
+    left:20px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid grey;
+}.samsung1{
+    height:300px;
+    width:430px;
+    background:url(../img/samsung.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    border: 2px solid grey;
+    left:450px;
+}h5{
+    position: relative;
+    z-index: 999;
+    top:120px;
+    left:350px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    position: relative;
+    z-index: 999;
+    top:140px;
+    left:150px;
+    width:70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+}
+.image-1{
+height:360px;
+width:730px;
+background:url(../img/phn2.jpg);
+background-repeat: no-repeat;
+position: relative;
+top:160px;
+left:150px;
+z-index: 999;
+}
+.p{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top:320px;
+    left:50px;
+    white-space: nowrap;
+}
+.para{
+    height:400px;
+    width:900px;
+    position: relative;
+    top:145px;
+    
+    left:100px;
+.para1{
+position: absolute;
+top:0;
+left: 10px;
+font-family: 'open-sans';
+    font-size:20px; 
+    width: 90%;
+}
+.snap{
+    height:300px;
+    width:440px;
+    position: absolute;
+    z-index: 999;
+    left:10px;
+    top:80px;
+    border:2px solid grey;
+    
+    background:url(../img/snap.jpg);
+background-size:100% 100%;
+background-repeat: no-repeat;}
+.snap1{
+    height:300px;
+    width:440px;
+    position: absolute;
+    z-index: 999;
+    left:450px;
+    top:80px;
+    background:url(../img/snap1.jpg);
+    
+background-size:100% 100%;
+background-repeat: no-repeat;
+    border:2px solid grey;
+}}
+.testify{
+    height:1000px;
+    width:930px;
+    position: relative;
+    top:130px;
+    left:70px;
+h1{
+    position: relative;
+    top:40px;
+}}.star{
+    position: relative;
+    top:40px;
+}li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+    width:90%;
+}.icon{
+    height:100px;
+    width:700px;
+    position: relative;
+    top:220px;
+    left:90px;
+    border:2px solid grey;
+    z-index: 999;
+
+.li i{
+    float: left;
+    position: relative;
+    top:0;
+    left:300px;
+    background:orange;
+    border-left:2px solid grey; 
+}
+}.bot{
+    height:50px;
+    width:130px;
+    background:transparent;
+    position: relative;
+    top:20px;
+    left:720px;
+    font-family: 'open-sans';
+}
+.last{
+    height:300px;
+    width:870px;
+    position: relative;
+    top:230px;
+    left:80px;
+    h2{
+        position: relative;
+        top:100px;
+        left:140px;
+    }
+    
+    h3{
+        position: relative;
+        top:70px;
+        left:500px;
+        font-size:25px;
+    }
+.txt{
+    position: absolute;
+    top:20px;
+    white-space: nowrap;
+    left:60px;
+}
+input{
+display: inline-block;
+position: relative;top:100px;
+height:50px;
+top:80px;
+width:200px;
+
+}
+
+.ab{
+    position: relative;
+    left:140px;
+}
+
+.bc{
+    position: relative;
+    left:250px;
+}.subscribe{
+    position: relative;
+    top:80px;
+    height:40px;
+    width:100px;
+    left:300px;
+    background-color:grey;
+    font-family: 'open-sans';
+font-size:17px;
+
+&:hover{
+    background:black;
+    color:white;
+}}}
+}

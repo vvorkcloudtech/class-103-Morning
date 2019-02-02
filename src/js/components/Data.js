@@ -54,84 +54,27 @@ export let Data = [
             },
             forumslist:{
                 li1:"TOP DEVICES",
-                 li2:"OnePlus 6T",
-                 li3:"Glaxy Note9",
-                 li4:"Pixel 3 XL ",
-                 li5:"Xiaomi PocoPhone F1",
-
-                li6:"NEW Devices",
-                li7:"Razer Phone 2",
-                li8:"One Plus 6T",
-                li9:"Honor 8X",
-                li10:"Huawei Mate 20 Pro",
-
-                li11:"TOPICES",
-                li12:"Android Auto",
-                li13:"Android Mode",
-                li14:"Android TV",
-                li15:"Apps and Games",
-                li16:"Themes",
-                li17:"Where OS",
-                li18:"SmartsWatches",
-                li19:"Window 10",
-
+                li2:"NEW Devices",
+                li3:"TOPICES",
+              
             },
-
-
-
-
-
             deviceslist:{
                 LI1:"asus",
                 li2:"honour",
                 li3:"lonovo",
                 li5:"nokia",
-                li6:"razer",
+                li6:"raser",
              li7:"Vivo",
              LI2:"Essintial",
-             li4:"HTC",
-             li8:"LG",
-             li9:"OpenPlus",
-             li10:"samsung",
-             li11:"Xiaomi",
-             LI3:"Google",
-             li12:"Huwaia",
-             li13:"Motorola",
-             li14:"OPPO",
-             li15:"sony",
-             li16:"ZTE"
-            },
-            topiclist:{
-              LI1:"Features",
-              li2:"Analysis / Editorial",
-              li3:"Android Pie",
-              li4:"App Teardoowns",
-              li5:"ChromeBooks",
-              li6:"Development",
-              li7:"Exclusive",
-              li8:"Google Products",
-              li9:"Qualcomm",
-              li10:"Reviews",
-              li11:"Site Announcements",
-              li12:"Wear OS",
-             LI13:"Customize",
-             li14:"Line Age",
-              li15:"Modes",
-              li16:"Totorials",
-              li17:"TWRP",
-              li18:"XDA Spotlights",
+             LI3:"Google"
 
             },
+            topiclist:{
+             LI1:"Features",
+             LI2:"Customize"
+            },
             postlist:{
-                LI1:"Get Substratum",
-                li2:"Get Xposed",
-                li3:"Get Magisk",
-                li4:"Get Google Cmera",
-                li5:"Get YOUtube Vnced",
-                li6:"How To Root",
-                li7:"How To Use ADB",
-                li8:"Get Android Pie Room",
-                
+                LI1:"How To Root"
             }
         },
 
@@ -194,8 +137,13 @@ export let Data = [
 
                 
             }
+        },
+        LGMObile:{
+            icon:[{icon:"fab fa-facebook"},
+            {icon:"fab fa-google"}
+        ,{icon:"fab fa-twitter"}
+    ,{icon:"fab fa-facebook"}]
         }
-        
     }
 
 ]

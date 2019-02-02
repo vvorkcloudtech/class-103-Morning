@@ -1,0 +1,43 @@
+.sign_up
+{position: relative; height: 86.5vh; width: 100%; background: #DDDDDD; border-top: 1px solid $bg2; }
+
+.container 
+{height: 70vh; width: 60%; position: relative; background: gray; margin: 8vh auto; }
+
+.form
+{height: 70vh; width: 50%; background: white; position: relative; float: left; display: flex; justify-content: center; align-items: center;}
+
+.form input 
+{width: 20vw; margin-top: 2vw; height: 5vh; border: 0px; border-bottom: 0.09vw solid $bg2 !important; outline: none;}
+
+.form button 
+{padding: 0.7vw 1.2vw; font-size: 0.8vw; background: $bg2; color: white; cursor:pointer; }
+
+.form h3
+{position: absolute; background: black; color: white; border-radius: 10vw; padding: 1vw; right: -2vw; top:45% ; z-index: 1;}
+
+
+
+
+
+.sign_up_via_socialmedia
+{height: 70vh; width: 50%; background: red; position: relative; left: 50%; background-image: url(img/hero.jpg); background-position: center; background-size: cover }
+
+.sign_up_via_socialmedia .links
+{display: flex; position: absolute; justify-content: center; flex-direction: column; align-items: center; }
+
+.links h1
+{position: relative; top: 7vw; left: 15%; font-size: 2vw}
+
+.links button
+{width: 70%; padding: 0.8vw; position: relative; top: 10vw; left: 18%; cursor: pointer; background: blue; color: white; outline: none; font-weight: bold; border: 0px;
+font-size: 0.8vw;}
+
+.btn1
+{background: #54ADEF !important;}
+
+.btn2
+{background: #DD4A38 !important}
+
+
+

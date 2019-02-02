@@ -1,16 +1,19 @@
+*{padding:0}
 .footer{
    
     height: auto;
     padding: 50px;
-    width: 100%;
+    width: 93;
     background: #444444;
+    overflow-x: hidden;
     .footerdiv{
         
-        width:350px;
+        width:400px;
         display: inline-block;
         position:relative;
         height:300px;
         padding:20px;
+        overflow-x: hidden;
        
         
         p{
@@ -43,9 +46,32 @@
     }
     .MidDiv{
         p{color:#ffbd2d;
-            padding-left:20px;}
+            padding-left:20px;
+        }
+
     }
     .rightDiv{
         @extend .MidDiv;
+        input{
+            border:none;
+            border-top-left-radius:45px;
+            border-bottom-left-radius:45px;
+            outline:none;
+            height:45px;
+            width:200px;
+            padding-left:10px;
+        }
+        button{
+            font-weight: bolder;
+            border-top-right-radius:45px;
+            border-bottom-right-radius:45px;
+            background-color: #ffbd2d;
+            height:45px;
+            border:none;
+            outline:none;
+            padding:0 10px;
+            cursor: pointer;
+        }
+        
     }
 }

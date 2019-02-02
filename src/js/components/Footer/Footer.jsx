@@ -6,11 +6,29 @@ import { Data } from "../Data";
 
 class Footer extends Component{
     state={
-        data : Data
+        data : Data,
+        email:"",
+        emails:[]
     }
+    onChangeHandler=(e)=>{
+        console.log(e.target.value)
+        this.setState({
+            [e.target.name]:e.target.value }
+            )}
+
+    handleSubmit=(e)=>{
+        e.preventDefault()
+        let email=e.target.value;
+        this.setState({
+            email:this.state.email.valueOf(email),
+            emails:[...this.state.emails,this.state.email]
+        })
+    }
+         
+
     render(){
-        var stateData =this.state.data;
-        console.log(this.state.data)
+        console.log(this.state.emails)
+        var stateData = this.state.data;
         var result = stateData.map((v,i)=>{
             return <div key={i}>
               
@@ -44,6 +62,13 @@ class Footer extends Component{
            )
         }
         </ul>
+        <br/><br/><br/>
+        <form onSubmit={this.handleSubmit}>        
+            <input type="email" name="email" placeholder="you@example.com" onChange={this.onChangeHandler}/>
+            <button type="submit" >Subscribe</button>
+        </form>
+
+        
 </div>
 
             

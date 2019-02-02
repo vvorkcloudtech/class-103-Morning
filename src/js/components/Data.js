@@ -136,6 +136,9 @@ export let Data = [
                 }]
 
                 
+            },
+            Newsletter:{
+                email:""
             }
         }
         

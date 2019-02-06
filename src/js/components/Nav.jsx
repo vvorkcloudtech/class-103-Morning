@@ -27,12 +27,9 @@ class Nav extends React.Component {
         hovers14:"",
         hovers15:"",
         hovers16:"",
-<<<<<<< HEAD
-=======
         click1:"",
         click2:"",
         click3:"",
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
     }
     
     clickfn1 = (e) =>{

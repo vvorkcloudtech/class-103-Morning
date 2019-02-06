@@ -2,7 +2,6 @@ import React from "react";
 import { Route } from "react-router-dom";
 //Nav import start
 import Nav from "./Nav";
-import Forum from './Forums';
 import fire from '../../config/Fire';
 import Login from './Login';
 import Home from './Home';
@@ -14,7 +13,6 @@ import G5 from "./5G";
 import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
-import PostCategory from "./PostCategory";
 import Mata20Pro from "./Mate20Pro";
 // Footer imports start
 import Footer from './Footer/Footer';
@@ -28,22 +26,26 @@ import RootDevice from './Footer/RootDevice';
 // Footer imoorts ends
 import Tags from './tags';
 import Practice from './practice';
+import {Data} from "./Data";
+import MainHome from "./mainHome";
+import Maliaka from "./maliaka";
 
 class App extends React.Component {
 constructor(props){
   super(props);
   this.state = ({
     user:{},
+    data:Data
+
   });
+
   this.authListener = this.authListener.bind(this);
 }
 componentDidMount() {
   this.authListener();
 }
-
 authListener() {
   fire.auth().onAuthStateChanged((user) => {
-    console.log(user);
     if (user) {
       this.setState({ user });
       localStorage.setItem('user', user.uid);
@@ -53,16 +55,23 @@ authListener() {
     }
   });
 }
-  render() {
 
+fourRouteArr=[1,2,3,4]
+
+res = this.fourRouteArr.map((v,i)=>{
+  return(
+    <Route path={"/post"+i} key={i} render={()=><Maliaka all={this.state.data[0].data1}/>}/>
+
+  )
+})
+
+
+  render() {
     return (
       <div>
-        {/* <h1>
-          Heading One Team Work 
-          </h1>
-          <PostCategory/>
-          <Forum /> */}
-     <Nav />
+        <Nav />
+        <Route exact path="/" render={()=><MainHome main={this.state.data[0].PostData}/>}/>
+        {this.res}
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>
         <Route path="/OnePlus6T" component={OnePlus6T}/>
@@ -72,11 +81,10 @@ authListener() {
         <Route path="/Samsung" component={Samsung}/>
         <Route path="/Root" component={Root}/>
         <Route path="/Mate20Pro" component={Mata20Pro}/>
-
-
-
         <Route path="/tags" component={Tags}/>
-        <Route path="/practice" component={Practice}/>
+        {/* <Route path="/practice" component={Practice}/> */}
+
+
         {this.state.user ? (<Home/>) : (<Login/>)}
 
 {/* Footer starts here */}
@@ -87,7 +95,7 @@ authListener() {
         <Route path="/rootDevice" component={RootDevice}/>
         <Route path="/security" component={SecurityPolicy}/>
         <Route path="/SuggestContent" component={SuggestContent}/>
-        <Route path="/advertise" component={Advertise}/>
+        {/* <Route path="/advertise" component={Advertise}/> */}
         {/* Footer ends Here */}
 
       </div>

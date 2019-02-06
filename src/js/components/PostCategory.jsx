@@ -9,4 +9,4 @@ class PostCategory extends React.Component {
     );
   }
 }
-export default HonorHub;
+export default PostCategory;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
+<<<<<<< HEAD
 import Nav from "./Nav";
 import fire from '../../config/Fire';
 import Login from './Login';
@@ -13,22 +14,27 @@ import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
 import Mata20Pro from "./Mate20Pro";
+=======
+>>>>>>> b9b0a0ffefff98ee29922a5835a22e0f0c43518a
 // Footer imports start
 import Footer from './Footer/Footer';
-import SecurityPolicy from './Footer/Secrity';
-import Contact from './Footer/Contact';
-import Advertise from './Footer/Advertise';
-import PrivacyPolicy from './Footer/PrivacyPolicy';
-import Rules from './Footer/Rules';
-import SuggestContent from './Footer/SuggestContent';
-import RootDevice from './Footer/RootDevice';
+// import SecurityPolicy from './Footer/Secrity';
+// import Contact from './Footer/Contact';
+// import Advertise from './Footer/Advertise';
+// import PrivacyPolicy from './Footer/PrivacyPolicy';
+// import Rules from './Footer/Rules';
+// import SuggestContent from './Footer/SuggestContent';
+// import RootDevice from './Footer/RootDevice';
 // Footer imoorts ends
+<<<<<<< HEAD
 import Tags from './tags';
 import Practice from './practice';
 import {Data} from "./Data";
 import MainHome from "./mainHome";
 import Maliaka from "./maliaka";
 
+=======
+>>>>>>> b9b0a0ffefff98ee29922a5835a22e0f0c43518a
 
 class App extends React.Component {
 constructor(props){
@@ -69,6 +75,7 @@ res = this.fourRouteArr.map((v,i)=>{
   render() {
     return (
       <div>
+<<<<<<< HEAD
         <Nav />
         <Route exact path="/" render={()=><MainHome main={this.state.data[0].PostData}/>}/>
         {this.res}
@@ -89,14 +96,20 @@ res = this.fourRouteArr.map((v,i)=>{
         {this.state.user ? (<Home/>) : (<Login/>)}
 
 {/* Footer starts here */}
+=======
+>>>>>>> b9b0a0ffefff98ee29922a5835a22e0f0c43518a
         <Footer/>
-        <Route path="/rules" component={Rules}/>
+        {/* <Route path="/rules" component={Rules}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/privacyPolicies" component={PrivacyPolicy}/>
         <Route path="/rootDevice" component={RootDevice}/>
         <Route path="/security" component={SecurityPolicy}/>
         <Route path="/SuggestContent" component={SuggestContent}/>
+<<<<<<< HEAD
         {/* <Route path="/advertise" component={Advertise}/> */}
+=======
+        <Route path="/advertise" component={Advertise}/> */}
+>>>>>>> b9b0a0ffefff98ee29922a5835a22e0f0c43518a
         {/* Footer ends Here */}
 
       </div>

@@ -27,7 +27,48 @@ class Nav extends React.Component {
         hovers14:"",
         hovers15:"",
         hovers16:"",
+<<<<<<< HEAD
+=======
+        click1:"",
+        click2:"",
+        click3:"",
+>>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
     }
+    
+    clickfn1 = (e) =>{
+        console.log(e);
+        this.setState({
+            click1:true,
+        })
+    }
+    clickfn2 = (e) =>{
+        this.setState({
+            click1:false,
+        })
+    }
+    clickfn3 = (e) =>{
+        console.log(e);
+        this.setState({
+            click2:true,
+        })
+    }
+    clickfn4 = (e) =>{
+        this.setState({
+            click2:false,
+        })
+    }
+    clickfn5 = (e) =>{
+        console.log(e);
+        this.setState({
+            click3:true,
+        })
+    }
+    clickfn6 = (e) =>{
+        this.setState({
+            click3:false,
+        })
+    }
+    
     mousefn = (e) =>{
         this.setState({
             hover:true,
@@ -635,7 +676,76 @@ class Nav extends React.Component {
             </li>
         </ul>
 
-
+<div className="icon" >
+<i className="fas fa-search" onClick={this.clickfn1}></i>
+{this.state.click1 ?
+    <div className="search">
+    <h1 onClick={this.clickfn2}>X</h1>
+    <input type="text" placeholder="Search"/>
+    <h3>TRY THESE SEARCHES</h3>
+    <ul>
+        <li>Android Pie</li>
+            <li>Note 9 Wallpaper</li>
+            <li>How to block ads on Android</li>
+            <li>Honor 10</li>
+            <li> Pixel 3 XL twrp</li>
+            <li>Magisk</li>
+            <li>   OnePlus 6T fingerprint</li>
+    </ul>
+    </div>
+    : ""}
+<i className="fas fa-user-circle" onClick={this.clickfn3}></i>
+{this.state.click2 ?
+<div className="search1">
+    <h1 onClick={this.clickfn4}>X</h1>
+    <input type="text" placeholder="Username" className="user"/>
+    <input type="text" placeholder="Password" className="pass"/>
+    <h4><input type="checkbox" />Remember me</h4>
+    <h4 className="h4">Forgot password?</h4>
+    <button>LOG IN</button>
+    <h4 className="h5">Register or Login with Google</h4>
+    </div>
+    : ""}
+<i className="fas fa-align-justify" onClick={this.clickfn5}></i>
+{this.state.click3 ?
+<div className="search2">
+    <h1 onClick={this.clickfn6}>X</h1>
+    <ul>
+        <li>XDA’S APPS</li>
+        <li>Nav Gestures</li>
+        <li><p>Add swipe gestures to any Android, no root</p></li>
+        <li>One handed mode</li>
+        <li><p>Make your phone easier to use with one hand, no root</p></li>
+        <li>XDA Forum App</li>
+        <li><p>The best way to access XDA on your phone</p></li>
+        <li>XDA Labs</li>
+        <li><p>An app store for independent developers</p></li>
+        <li>Hyperion Launcher</li>
+        <li><p>A sweet, feature-filled launcher with a beautiful UX.</p></li>
+        <li><hr /></li>
+        <li>SITES WE LIKE</li>
+        <li><i class="fas fa-sync"></i>
+        Swappa
+        <p className="p">XDA's official marketplace for buying and selling tech</p></li>
+        <li><i class="fas fa-file-powerpoint"></i>Pocketnow
+            <p className="p">Premium videos</p>
+        </li>
+        <li><hr /></li>
+        <li>SOCIAL
+            <h3><i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fas fa-share-square"></i>
+            <i class="fab fa-google-play"></i>
+            <i class="fas fa-wifi"></i>
+            </h3>
+        </li>
+        <li><hr /></li>
+        <li>RESOURCES</li>
+    </ul>
+</div>
+: ""}
+</div>
         </div>
         <div className="part-nav">
         <ol className="tagbar-list">
@@ -649,6 +759,7 @@ class Nav extends React.Component {
 <li><span># </span><Link to="/Root">{v.Nav.tagbarlist.li8}</Link></li>
 <li><span># </span><Link to="/Mate20Pro">{v.Nav.tagbarlist.li9}</Link></li>
 </ol>
+
         </div>
         </div>
       })

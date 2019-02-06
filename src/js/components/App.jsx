@@ -1,10 +1,12 @@
 import React from "react";
 import { Route } from "react-router-dom";
-//Nav import start
 import Nav from "./Nav";
+<<<<<<< HEAD
 import fire from '../../config/Fire';
 import Login from './Login';
 import Home from './Home';
+=======
+>>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
 import HonorHub from "./HonorHub";
 import AndroidPie from "./AndroidPie";
 import OnePlus6T from "./OnePlus6T";
@@ -14,6 +16,7 @@ import Pixel3 from "./Pixel3";
 import Samsung from "./Samsung";
 import Root from "./root";
 import Mata20Pro from "./Mate20Pro";
+<<<<<<< HEAD
 // Footer imports start
 import Footer from './Footer/Footer';
 import SecurityPolicy from './Footer/Secrity';
@@ -29,6 +32,9 @@ import Practice from './practice';
 import {Data} from "./Data";
 import MainHome from "./mainHome";
 import Maliaka from "./maliaka";
+=======
+
+>>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
 
 class App extends React.Component {
 constructor(props){
@@ -69,9 +75,13 @@ res = this.fourRouteArr.map((v,i)=>{
   render() {
     return (
       <div>
+<<<<<<< HEAD
         <Nav />
         <Route exact path="/" render={()=><MainHome main={this.state.data[0].PostData}/>}/>
         {this.res}
+=======
+     <Nav />
+>>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
         <Route path="/HonorHub" component={HonorHub}/> 
         <Route path="/AndroidPie" component={AndroidPie}/>
         <Route path="/OnePlus6T" component={OnePlus6T}/>
@@ -84,6 +94,7 @@ res = this.fourRouteArr.map((v,i)=>{
         <Route path="/tags" component={Tags}/>
         {/* <Route path="/practice" component={Practice}/> */}
 
+<<<<<<< HEAD
 
         {this.state.user ? (<Home/>) : (<Login/>)}
 
@@ -98,6 +109,8 @@ res = this.fourRouteArr.map((v,i)=>{
         {/* <Route path="/advertise" component={Advertise}/> */}
         {/* Footer ends Here */}
 
+=======
+>>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
       </div>
     );
   }

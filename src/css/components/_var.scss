@@ -4,6 +4,8 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
+    $font-bold:'Noto Serif TC', serif;
+$font-light:'Noto Serif KR', serif;
 }
 Link{
     color: black;
@@ -12,3 +14,9 @@ $bg1:#2E2E2E;
 $bg2:#4D4D4D;
 $color:#DDDDDD;
 $color1:#EE9413;
+
+
+$dark-clr:#ac632f;
+$light-clr:#f5f5f5;
+$black-clr:#272727;
+$light-brown:#e99b3b;

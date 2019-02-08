@@ -1,0 +1,114 @@
+// .slider{
+//     height: 50vh;
+//     width: 100%;
+//     background: yellow;
+// }
+// img{
+//     height: 200px;
+//     width:300px;
+// }
+.dataTables_filter {
+    position: relative;
+    left: 0%;
+    width: 70% !important;
+    overflow: hidden;
+    input {
+        position: relative;
+        padding: 10px 20px;
+        top: -60px;
+        left: 15%;
+    }
+
+    label {
+        padding: 60px 0 0 0px;
+    }
+}
+
+.dataTables_length {
+    position: relative;
+    left: 20%;
+    top: 30px;
+    width: 300px;
+    font-size: 22px;
+
+    select {
+        position: relative;
+        left: 20px;
+        // height:40px;
+        padding: 10px 20px;
+    }
+}
+
+.dataTables_info {
+    position: relative;
+    width: 300px;
+    top: 40px;
+    left: 700px;
+
+}
+
+ul.pagination {
+    position: relative;
+    width: 70%;
+    left: 0px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+
+    li {
+        list-style: none;
+        float: left;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #FFBD2D;
+
+    }
+}
+
+input.form-control {
+    margin: 30px;
+
+}
+
+table {
+    position: relative;
+    left: 10%;
+
+    tbody {
+        tr {
+            td {
+                width: 350px;
+                height: 200px;
+                margin-left: 40px;
+
+                img {
+                    height: 100%;
+                    width: 270px !important;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    td:nth-child(2) {
+        height: 70px;
+        width: 600px;
+        display: flex;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        left: 30px;
+    }
+
+    td:nth-child(3) {
+        color: gray;
+        height: 100px;
+        width: 600px;
+        font-size: 17px;
+        display: flex;
+    }
+}

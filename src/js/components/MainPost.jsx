@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import DatatablePage from './p';
 
 const MainPost = (props) => {
 
@@ -7,21 +8,23 @@ const MainPost = (props) => {
         return(
             <Link to={"/post"+i} onClick={props.click}>
                 <div className="col-md-6" style={{paddingTop:'40px'}}>
-                    <img src={v.img} style={{width:'100%'}} alt="" style={{border:'1px solid #eee'}}/>
+                    <img src={v.img} style={{width:'100%',border:'1px solid #eee'}} alt=""/>
                     <h3>{v.title}</h3>
                 </div>
             </Link>
         )
     })
-    
-    console.log(props.all[0].img)
-    
     return (
-        <div style={{width:'70%',border:'1px solid'}}>
-            <div className="container-fluid">
+        <div style={{width:'70%'}}>
+            <div className="container-fluid" style={{width:'100%'}}>
                 <div className="row">
-                    <div className="col-md-11" style={{marginLeft:'100px'}}>
+                    <div className="col-md-11" style={{marginLeft:'8%'}}>
                         {postResult}
+                    </div>
+                </div>
+                <div className="row left-set">
+                    <div className="col-md-11" style={{marginLeft:'0%'}}>
+                        <DatatablePage/>
                     </div>
                 </div>
             </div>

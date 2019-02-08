@@ -193,7 +193,6 @@ export let Data = [
                 }] 
             },
 
-<<<<<<< HEAD
         },  PostData:[
             {
                 title:'Exclusive: This is the LG G8 ThinQ, LG’s First 2019 Flagship Smartphone',
@@ -331,15 +330,7 @@ export let Data = [
                 Heading6: "LG G8 ThinQ Announcement",
                 paragraph10: "We’re still a month away from LG’s scheduled press conference at MWC 2019, so expect to hear more about the device ahead of its launch. LG’s event is scheduled for Sunday, February 24, 2019. XDA-Developers will have a representative at MWC as will our partners at PocketNow, so stay tuned for more coverage on the LG G8 ThinQ.",
             },
-        ]    
-=======
-                
-            },
-            Newsletter:{
-                email:""
-            }
-        }
->>>>>>> b9b0a0ffefff98ee29922a5835a22e0f0c43518a
+        ],    
         
     }
 

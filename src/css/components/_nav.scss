@@ -3,14 +3,15 @@
     padding: 20px 0 0 0;
     width: 100%;
     background: $bg1;
-    height: 50px;
+    height: 100px;
     img{
         height: 35px;
         margin-left: 20px;
+        margin-top:20px;
     }
     ul.list{
         position: absolute;
-        top:0;
+        top:20px;
         left: 300px;
         li{
             position: relative;
@@ -33,10 +34,10 @@
     padding:4px 10px;
     // border: 2px solid white;
     width: 200px;
-    top: 10px;
+    top: 30px;
     right: 0;
     i{
-        font-size: 40px;
+        font-size: 30px;
         color: $light-clr;
         margin:0 13px;
     }
@@ -46,8 +47,10 @@
     width: 470px;
     background: $black-clr;
     height: 100vh;
-    position: absolute;
-    top:-10px;
+    overflow-y: scroll;
+    z-index: 9;
+    position: fixed;
+    top:0px;
     right: 0;
     h1{
         color: $light-clr;
@@ -285,11 +288,7 @@
         }
         h4{
             position: absolute;
-<<<<<<< HEAD
-            top:360px;
-=======
             top:390px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
             left: 30px;
             font-size: 22px;
         }
@@ -301,11 +300,7 @@
     background: $bg2;
     width: 500px;
     left:0px;
-<<<<<<< HEAD
-    height: 330px;
-=======
     height: 360px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
     top:70px;
     z-index: 999;
     ul.devices-list{
@@ -344,20 +339,12 @@
         }
         .hr{
             position: absolute;
-<<<<<<< HEAD
-            top:270px;
-=======
             top:300px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
             width: 100%;
         }
         h4{
             position: absolute;
-<<<<<<< HEAD
-            top:290px;
-=======
             top:320px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
             left:20px;
         }
         
@@ -369,11 +356,7 @@
     background: $bg2;
     width: 480px;
     left:0px;
-<<<<<<< HEAD
-    height: 600px;
-=======
     height: 620px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
     top:70px;
     z-index: 999;
     ul.topic-list{
@@ -392,10 +375,7 @@
             display: flex;
             flex-direction: column;
             left:250px;
-<<<<<<< HEAD
-=======
             top:30px;
->>>>>>> 58fb45ecd72bbc554eab0d4036c064b2f780b49d
             li{
                 padding: 10px;
                 color: white;
